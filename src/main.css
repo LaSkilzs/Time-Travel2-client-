@@ -70,3 +70,7 @@
 .featured {
   background: #f2d29f;
 }
+
+.filter-container {
+  display: flex;
+}
