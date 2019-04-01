@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="" width="100" height="100" alt=""></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav" id="navbarNav">
+        <li class="nav-item"> <a id="home" class="nav-link" href="#">home</a></li>
+        <li class="nav-item"> <a id="findwork" class="nav-link" href="#helpwanted">find work</a></li>
+        <li class="nav-item"> <a id="profile" class="nav-link" href="#profile">profile</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- main image section -->
+  <main id="mainimage">
+    <div id="changeStateBtns">
+      <section id="header">
+        <div class="container">
+          <button id="homebtnprimary" class="homesection btn btn-outline-primary" data-toggle="modal"
+            data-target="#exampleModal">Create
+            Profile</button>
+          <button id="findwork" type="button" class="homesection btn btn-outline-success" data-toggle=""
+            data-target="">Find
+            Work</button>
+        </div>
+      </section>
+    </div>
+
+  </main>
+  <!-- Fun  Facts -->
+  <section id="funfacts">
+    <div class="main-allfacts container m-4">
+      <div class="allfacts card">
+        <!-- Fetched Fact and Number -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End of Fun Facts -->
+  <!-- page state change section -->
+  <section id="main">
+    <div class="main container">
+      <h1 id="title" class="display-4 text-center"></h1>
+      <div class="card">
+        <div id="content" class="card-body">
+          <!-- insert profile/work info -->
+          <div class="card col-7 mb-5">
+            <div class="card-body">
+              <h4 id="subtitle">Workers Needed</h4>
+              <ul id="industrystandings" class="list-group">
+                <!-- Industry List Goes Here -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- search section -->
+      <hr>
+      <div class="filter-container">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="option1">
+          <label class="form-check-label" for="inlineCheckboxGender">Gender</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="option2">
+          <label class="form-check-label" for="inlineCheckboxAge">Age</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="option1">
+          <label class="form-check-label" for="inlineCheckboxLocation">Location</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="option2">
+          <label class="form-check-label" for="inlineCheckboxWage">Wage</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="option1">
+          <label class="form-check-label" for="inlineCheckboxIndustry">Industry</label>
+        </div>
+        <hr>
+        <button class="btn btn-primary mb-2 ">filter</button>
+      </div>
+      <hr>
+      <div class="input-group mt-4">
+          <button class="btn btn-outline-success" type="button">find work </button>
+
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="keyword">
+          </div>
+          <div class="form-group">
+            <select id="industry" class="form-control">
+              <option value="agriculture">Agriculture</option>
+              <option value="manufacturing and mechanical">Manufacturing and Mechanical</option>
+              <option value="domestic and personal service">Domestic and Personal Service</option>
+              <option value="professional">Professional</option>
+              <option value="retail and trade">Retail and Trade</option>
+              <option value="transportation">Transportation</option>
+            </select>
+          </div>
+          <button class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Create
+            Profile</button>
+      </div>
+      <hr>
+
+      <!-- Modal show Job -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end of search section -->
+      <div class="space-maker">
+        <!-- featured jobs goes here -->
+      </div>
+      <div class="mt-5">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-end">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <hr>
+
+
+      <!-- end of fetched data -->
+      <div class="title-changers">
+        <!-- Insert Headers Here -->
+      </div>
+
+      <!-- Employment Openings Section -->
+      <div class="m-3 employmentsection" id="showButtonContainer">
+        <!-- Job cards entered here -->
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- End of single page App -->
+    <!-- profile modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create Your Profile</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="name" required>
+              </div>
+              <div class="form-group">
+                <select class="custom-select" required>
+                  <option value="">AgeGroup</option>
+                  <option value="1">adults</option>
+                  <option value="2">teens</option>
+                  <option value="3">children</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+              </div>
+              <div class="form-group">
+                <select class="custom-select" required>
+                  <option value="">Gender</option>
+                  <option value="1">male</option>
+                  <option value="2">female</option>
+                  <option value="3">no response</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+              </div>
+              <div class="form-group">
+                <select class="custom-select" required>
+                  <option value="">Marital_Status</option>
+                  <option value="1">married</option>
+                  <option value="2">single</option>
+                  <option value="3">divorced</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+              </div>
+              <div class="form-group">
+                <select class="custom-select" required>
+                  <option value="">Education</option>
+                  <option value="1">college completed</option>
+                  <option value="2">some college</option>
+                  <option value="3">high school completed</option>
+                  <option value="4">none</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+              </div>
+              <div class="form-group">
+                <select class="custom-select" required>
+                  <option value="">Experience</option>
+                  <option value="1">professional</option>
+                  <option value="2">skilled</option>
+                  <option value="3">semiskilled</option>
+                  <option value="4">unskilled</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+              </div>
+              <div class="form-group">
+                <select class="custom-select" required>
+                  <option value="">Available for work?</option>
+                  <option value="1">today</option>
+                  <option value="2">tomorrow</option>
+                  <option value="3">monday</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+              </div>
+              <div class="form-group">
+                <select class="custom-select" required>
+                  <option value="">Do you know a trade?</option>
+                  <option value="1">yes</option>
+                  <option value="2">a little</option>
+                  <option value="3">no</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="closeprofile" class="btn btn-secondary closeprofile"
+              data-dismiss="modal">submit</button>
+            <!-- <button type="button" id="submitprofile" class="btn btn-primary" value="submit">Submit</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- findwork modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1>Apply Today</h1>
+            </header>
+          </div>
+          <form>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Does your parents or grandparents have citizenship
+                outside of America?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Are your parents married?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Are your parents skilled in a trade?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">If your parents know a trade, could your family earn
+                a
+                living wage from the trade alone?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Do you like working with others?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Do you like doing the same tasks?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Are you willing to work 15hours a day, six-seven
+                days
+                week?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Do you mind working outdoors?</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Do you believe in work-life-balance?</label>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"> Preferered Work Location</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option selected>Choose...</option>
+                <option>Middle States</option>
+                <option>Central States</option>
+                <option>North Atlantic States</option>
+                <option>New England</option>
+                <option>Pacific States</option>
+                <option>Southern States</option>
+                <option>Western States</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- BootStrap popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap cdn -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- app js files -->
+  <script src="src/app.js"></script>
+  <!-- get the current year for the copyright -->
+  <script> $('#year').text(new Date().getFullYear());</script>
+</body>
+
+</html>
