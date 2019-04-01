@@ -1,0 +1,72 @@
+.navbar {
+  border-bottom: #316bb0 3px solid;
+}
+
+.homesection {
+  margin-top: 450px;
+}
+#header {
+  background: url("../images/look4work.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.allfacts {
+  margin-left: 125px;
+  background: #f4f4f4;
+}
+
+.main-allfacts {
+  margin: 100px;
+  background: #316bb0;
+}
+.main {
+  background: #f4f4f4;
+}
+
+#main {
+  background-color: #316bb0;
+  /* padding: 20px; */
+}
+
+.title {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #f3f3f3;
+  font-weight: 300;
+}
+.form-control {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+.header {
+  background: #316bb0;
+}
+.subtitle {
+  color: #316bb0;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 75px;
+}
+
+.maintitle {
+  color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  display: inline-flex;
+}
+
+.featured {
+  background: #f2d29f;
+}
