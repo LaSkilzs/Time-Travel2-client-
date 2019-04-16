@@ -5,6 +5,7 @@
 .homesection {
   margin-top: 450px;
 }
+
 #header {
   background: url("../images/look4work.jpeg");
   background-repeat: no-repeat;
@@ -13,8 +14,11 @@
   min-height: 700px;
 }
 
+#funfacts {
+  display: flex;
+  justify-content: center;
+}
 .allfacts {
-  margin-left: 125px;
   background: #f4f4f4;
 }
 
@@ -22,21 +26,15 @@
   margin: 100px;
   background: #316bb0;
 }
+
 .main {
-  background: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 #main {
   background-color: #316bb0;
-  /* padding: 20px; */
 }
 
-.title {
-  padding: 10px;
-  margin-bottom: 10px;
-  color: #f3f3f3;
-  font-weight: 300;
-}
 .form-control {
   display: block;
   width: 100%;
@@ -58,13 +56,20 @@
 }
 
 .maintitle {
-  color: #f4f4f4;
+  color: black;
   padding: 20px;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  margin-left: 15px;
 }
 
 .form-control {
   display: inline-flex;
+  width: 25vw;
 }
 
 .featured {
@@ -73,4 +78,25 @@
 
 .filter-container {
   display: flex;
+}
+
+.search {
+  display: flex;
+}
+
+.search-container {
+  width: 90vw;
+}
+
+.searchbar {
+  margin-left: 30px;
+}
+
+.employmentsection {
+  display: flex;
+  justify-content: center;
+}
+
+.job-container {
+  width: 70vw;
 }
