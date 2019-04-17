@@ -1,4 +1,4 @@
-alert("appState.js");
+// alert("appState.js");
 
 const appState = function() {
   let currentState = new HomeState(this);

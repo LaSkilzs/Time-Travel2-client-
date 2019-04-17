@@ -1,19 +1,20 @@
-alert("ProfileState.js");
+// alert("ProfileState.js");
+// document.onload = load();
+let user = [];
 
-class ProfileState {
-  constructor() {}
-  function(page) {
-    document.querySelector("#title").textContent = "Profile Page";
-    console.log("profile state");
-  }
-  async getProfileStateData() {
-    const Profileresponse = await fetch("http//localhost:3000/api/v1/profiles");
-    const Applicationsresponse = await fetch(
-      "http//localhost:3000/api/v1/applicationss"
-    );
-    const ProfileData = await Profileresponse.json();
-    const ApplicationsData = await Applicationsresponse.json();
-    return ProfileData;
-    return ApplicationsData;
-  }
-}
+// function load() {
+//   getProfileData().then(data => {
+//     user = data.user;
+//     console.log("user", user);
+//   });
+// }
+
+// async function getProfileData() {
+//   const response = await fetch(`http://localhost:3000/api/v1/user/${id}`);
+//   const user = await response.json();
+//   return { user };
+// }
+
+const ProfileState = function(app) {
+  document.querySelector("#title").textContent = "Profile Page";
+};
