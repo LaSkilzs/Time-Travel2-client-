@@ -23,6 +23,10 @@ From a technical learining perspective.This project was created using vanilla ja
 2. CSS
 3. Rails Api
 
+# Illustrations/GIFS
+Time_Travel.png
+https://go.gliffy.com/go/share/sn0dsl9tb07ew9i2guph
+
 # Project Status
 
 -- In progress, currently working on scoping issues when loading data.
