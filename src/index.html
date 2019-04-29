@@ -57,7 +57,7 @@
   <!-- Fun  Facts -->
   <section id="funfacts">
     <div class="main-allfacts container m-4">
-      <div class="allfacts card">
+      <div id="facts" class="allfacts card">
         <div class="card-header">
           Fetched Fact and Number
         </div>
@@ -73,11 +73,11 @@
   <section id="main">
     <div class="main container">
       <!-- Fetch title -->
-      <h1 id="title" class="display-4 text-center maintitle">Help Wanted</h1>
+      <h1 id="title" class="display-4 text-center maintitle"></h1>
       <div class="container">
         <div class="card">
           <div class="card-body">
-            <div class="row">
+            <div id="state-image" class="row">
               <!-- fetch top industry -->
               <div class="card col-5 mb-5">
                 <img class="m-2" src="../images/railroad.jpeg" alt="" />
@@ -90,7 +90,7 @@
               <div class="card col-7 mb-5">
                 <div class="card-body">
                   <h4>Workers Needed</h4>
-                  <ul>
+                  <ul id="state-content" >
                     <li><span>Gender:</span> Fetched</li>
                     <li><span>Age:</span> Fetched</li>
                     <li><span>Hours:</span> Fetched</li>
@@ -199,89 +199,11 @@
         </div>
         <!-- Employment Openings Section -->
         <div class="m-3 employmentsection">
-          <!-- Job cards entered here -->
-          <!-- Job Card -->
           <div class="job-container">
-            <div class="row card">
-              <div class="jobcard card-body">
-                <div class="">
-                  <h2>Job Title</h2>
-                  <h4>Industry</h4>
-                  <p>Job Description</p>
-                </div>
-                <div class="float-right">
-                  <button class="btn-success">show</button>
-                  <button class="btn-primary">save</button>
-                  <button class="btn-danger">delete</button>
-                </div>
-              </div>
+            <div id="jobs-section" class="row card">
+            <!-- Job cards entered here -->
+            <!-- Job Card -->
             </div>
-            <!-- Job Card -->
-            <!-- Job Card -->
-            <div class="row card">
-              <div class="jobcard card-body">
-                <div class="">
-                  <h2>Job Title</h2>
-                  <h4>Industry</h4>
-                  <p>Job Description</p>
-                </div>
-                <div class="float-right">
-                  <button class="btn-success">show</button>
-                  <button class="btn-primary">save</button>
-                  <button class="btn-danger">delete</button>
-                </div>
-              </div>
-            </div>
-            <!-- Job Card -->
-            <!-- Job Card -->
-            <div class="row card">
-              <div class="jobcard card-body">
-                <div class="">
-                  <h2>Job Title</h2>
-                  <h4>Industry</h4>
-                  <p>Job Description</p>
-                </div>
-                <div class="float-right">
-                  <button class="btn-success">show</button>
-                  <button class="btn-primary">save</button>
-                  <button class="btn-danger">delete</button>
-                </div>
-              </div>
-            </div>
-            <!-- Job Card -->
-            <!-- Job Card -->
-            <div class="row card">
-              <div class="jobcard card-body">
-                <div class="">
-                  <h2>Job Title</h2>
-                  <h4>Industry</h4>
-                  <p>Job Description</p>
-                </div>
-                <div class="float-right">
-                  <button class="btn-success">show</button>
-                  <button class="btn-primary">save</button>
-                  <button class="btn-danger">delete</button>
-                </div>
-              </div>
-            </div>
-            <!-- Job Card -->
-            <!-- Job Card -->
-            <div class="row card">
-              <div class="jobcard card-body">
-                <div class="">
-                  <h2>Job Title</h2>
-                  <h4>Industry</h4>
-                  <p>Job Description</p>
-                </div>
-                <div class="float-right">
-                  <button class="btn-success">show</button>
-                  <button class="btn-primary">save</button>
-                  <button class="btn-danger">delete</button>
-                </div>
-              </div>
-            </div>
-            <!-- Job Card -->
-          </div>
         </div>
         <nav aria-label="Page navigation example">
           <ul class="pagination justify-content-end">
@@ -316,6 +238,7 @@
     crossorigin="anonymous"></script>
   <!-- app js files -->
   <script src="../src/Api.js"></script> 
+  <script src="../src/UI.js"></script> 
   <script src="../src/state/ProfileState.js"></script>
   <script src="../src/state/WorkState.js"></script>
   <script src="../src/state/HomeState.js"></script>

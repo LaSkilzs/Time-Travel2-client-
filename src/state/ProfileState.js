@@ -17,4 +17,7 @@ let user = [];
 
 const ProfileState = function(app) {
   document.querySelector("#title").textContent = "Profile Page";
+  // document.querySelector("#state-image").innerHTML = "";
+  // document.querySelector("#state-content").innerHTML = "";
+  // document.querySelector("#jobs-section").innerHTML = "";
 };

@@ -20,3 +20,4 @@ switchProfile.addEventListener("click", e => {
 
 const app = new appState();
 app.init();
+// debugger;
