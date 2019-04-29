@@ -24,8 +24,7 @@ From a technical learining perspective.This project was created using vanilla ja
 3. Rails Api
 
 # Illustrations/GIFS
-Time_Travel.png
-https://go.gliffy.com/go/share/sn0dsl9tb07ew9i2guph
+  -- coming soon --
 
 # Project Status
 
