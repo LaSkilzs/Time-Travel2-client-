@@ -25,6 +25,7 @@ From a technical learining perspective.This project was created using vanilla ja
 
 # Illustrations/GIFS
   -- coming soon --
+  
 
 # Project Status
 
