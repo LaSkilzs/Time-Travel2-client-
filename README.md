@@ -23,6 +23,10 @@ From a technical learining perspective.This project was created using vanilla ja
 2. CSS
 3. Rails Api
 
+# Illustrations/GIFS
+  -- coming soon --
+  
+
 # Project Status
 
 ![Time Travel](Time_Travel.png)
