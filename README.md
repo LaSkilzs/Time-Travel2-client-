@@ -25,6 +25,8 @@ From a technical learining perspective.This project was created using vanilla ja
 
 # Project Status
 
+![Time Travel](Time_Travel.png)
+
 -- In progress, currently working on scoping issues when loading data.
 
 ## Authors
