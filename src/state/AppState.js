@@ -1,8 +1,11 @@
-const AppState = function() {
-  let currentState = new homeState(this);
+// alert("appState.js");
 
-  this.init = function() {
-    this.change(new homeState());
+const appState = function() {
+  let currentState = new HomeState(this);
+
+  this.init = function init() {
+    this.change();
+    console.log("app initialized");
   };
 
   this.change = function(state) {
